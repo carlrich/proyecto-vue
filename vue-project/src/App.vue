@@ -1,11 +1,15 @@
 <script setup>
-import Contador from './components/Contador.vue';
+  import MainView from './views/MainView.vue';
 </script>
 
 <template>
-  <Contador></Contador>
+  <MainView></MainView>
 </template>
 
 <style scoped>
-
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 </style>
